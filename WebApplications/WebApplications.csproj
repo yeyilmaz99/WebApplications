@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="ButtonControl.aspx" />
+    <Content Include="CalendarControl.aspx" />
     <Content Include="CascadingDropdown.aspx" />
     <Content Include="CheckBox.aspx" />
     <Content Include="CheckBoxAndListBox.aspx" />
@@ -212,6 +213,13 @@
     </Compile>
     <Compile Include="ButtonControl.aspx.designer.cs">
       <DependentUpon>ButtonControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarControl.aspx.cs">
+      <DependentUpon>CalendarControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarControl.aspx.designer.cs">
+      <DependentUpon>CalendarControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="CascadingDropdown.aspx.cs">
       <DependentUpon>CascadingDropdown.aspx</DependentUpon>
