@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Countries>
+	<Country>
+		<CountryId>1</CountryId>
+		<CountryName>UK</CountryName>
+	</Country>
+	<Country>
+		<CountryId>2</CountryId>
+		<CountryName>USA</CountryName>
+	</Country>
+	<Country>
+		<CountryId>3</CountryId>
+		<CountryName>FR</CountryName>
+	</Country>
+</Countries>
