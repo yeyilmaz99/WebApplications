@@ -9,6 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="SelectAll" runat="server" Text="Select All" OnClick="SelectAll_Click" />
+            <asp:Button ID="DeselectAll" runat="server" Text="Deselect All" OnClick="DeSelectAll_Click" />
             <asp:CheckBoxList ID="CheckBoxList1" runat="server" RepeatColumns="2" RepeatDirection="Horizontal" >
                 <asp:ListItem Text ="Diploma" Value="1"></asp:ListItem>
                 <asp:ListItem Text ="Graduate" Value="2"></asp:ListItem>

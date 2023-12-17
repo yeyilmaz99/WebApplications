@@ -25,5 +25,21 @@ namespace WebApplications
                 }
             }
         }
+
+        protected void SelectAll_Click(object sender, EventArgs e)
+        {
+            foreach(ListItem li in CheckBoxList1.Items)
+            {
+                li.Selected = true; 
+            }
+        }
+
+        protected void DeSelectAll_Click(object sender, EventArgs e)
+        {
+            foreach (ListItem li in CheckBoxList1.Items)
+            {
+                li.Selected = false;
+            }
+        }
     }
 }
