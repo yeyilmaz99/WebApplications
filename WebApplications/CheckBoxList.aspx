@@ -20,8 +20,8 @@
         </div>
         <br />
         
-        <div>
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+        <div> 
+            <asp:Button Font-Bold="true" ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         </div>
     </form>
 </body>
