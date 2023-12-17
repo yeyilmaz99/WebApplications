@@ -106,6 +106,7 @@
     <Content Include="ButtonControl.aspx" />
     <Content Include="CascadingDropdown.aspx" />
     <Content Include="CheckBox.aspx" />
+    <Content Include="CheckBoxList.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -223,6 +224,13 @@
     </Compile>
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxList.aspx.cs">
+      <DependentUpon>CheckBoxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBoxList.aspx.designer.cs">
+      <DependentUpon>CheckBoxList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
