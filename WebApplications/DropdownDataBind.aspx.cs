@@ -27,6 +27,9 @@ namespace WebApplications
                     DropDownList1.DataValueField = "CategoryId";
                     DropDownList1.DataBind();
 
+                    ListItem li = new ListItem("Select Item", "-1");
+                    DropDownList1.Items.Insert(0,li);
+
                 }
             }
 
@@ -34,7 +37,20 @@ namespace WebApplications
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write(DropDownList1.SelectedItem.Text);
+
+            if(DropDownList1.SelectedValue == "-1")
+            {
+                Response.Write("Please Select A Category first");
+            }
+            else
+            {
+
+                Response.Write(DropDownList1.SelectedItem.Text + "<br/>");
+                Response.Write(DropDownList1.SelectedItem.Value + "<br/>");
+                Response.Write(DropDownList1.SelectedIndex + "<br/>");
+                Response.Write(DropDownList1.SelectedValue + "<br/>");
+            }
+
         }
     }
 }
