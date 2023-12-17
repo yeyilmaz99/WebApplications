@@ -106,6 +106,7 @@
     <Content Include="ButtonControl.aspx" />
     <Content Include="CascadingDropdown.aspx" />
     <Content Include="CheckBox.aspx" />
+    <Content Include="CheckBoxAndListBox.aspx" />
     <Content Include="CheckBoxList.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -129,6 +130,7 @@
     <Content Include="Default.aspx" />
     <Content Include="DropdownDataBind.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FileUpload.aspx" />
     <Content Include="Global.asax" />
     <Content Include="RadioButton.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -225,6 +227,13 @@
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CheckBoxAndListBox.aspx.cs">
+      <DependentUpon>CheckBoxAndListBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBoxAndListBox.aspx.designer.cs">
+      <DependentUpon>CheckBoxAndListBox.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CheckBoxList.aspx.cs">
       <DependentUpon>CheckBoxList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -252,6 +261,13 @@
     </Compile>
     <Compile Include="DropdownDataBind.aspx.designer.cs">
       <DependentUpon>DropdownDataBind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpload.aspx.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload.aspx.designer.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -302,6 +318,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Uploads\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
