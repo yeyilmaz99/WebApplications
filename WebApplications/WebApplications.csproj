@@ -129,6 +129,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Countries.xml" />
     <Content Include="Default.aspx" />
+    <Content Include="Demo.aspx" />
     <Content Include="DropdownDataBind.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FileUpload.aspx" />
@@ -262,6 +263,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.aspx.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo.aspx.designer.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropdownDataBind.aspx.cs">
       <DependentUpon>DropdownDataBind.aspx</DependentUpon>
